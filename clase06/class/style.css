@@ -1,0 +1,12 @@
+.text-white {
+  color: white;
+}
+
+/* El . hace referencia a las class */
+.bg-salmon{
+  background-color: salmon;
+}
+
+.bg-indigo {
+  background-color: indigo;
+}

@@ -1,0 +1,31 @@
+/* Primer linea de CSS en donde le cambiamos el color al body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  text-align: center;
+
+  /* Podemos dividir el border en todas sus partes (arriba, abajo, izquierda, derecha) */
+  border-top: 3px solid black;
+  border-bottom: 3px solid white;
+  border-left: 3px solid darkcyan;
+  border-right: 3px solid gray;
+
+  /* Podemos usar esta propiedad para dar un borde a todos los lados. */
+  /* border: 3px solid white; */
+
+  margin-bottom: 100px;
+}
+
+a {
+  border: 1px solid black;
+}
+
+h2 {
+  border: 1px solid black;
+  background-color: darkcyan;
+  padding: 60px;
+  color: coral;
+}
