@@ -1,0 +1,13 @@
+.descuento {
+  /* desplazamiento en x, desplazamiento en y, difuminado, cuánto se expande, color */
+  width: 350px; 
+  box-shadow: 2px 2px 2px 0px gray;
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid gray;
+}
+
+.flex {
+  border: 2px solid red;
+  display: flex;
+}
