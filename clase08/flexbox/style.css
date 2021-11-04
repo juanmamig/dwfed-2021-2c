@@ -1,0 +1,33 @@
+.contenedor-flex {
+  display: flex;
+  border: 3px solid black;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: indigo;
+  margin: 10px;
+}
+
+.final {
+  /* SOLO FUNCIONA EN UN ELEMENTO FLEX */
+  justify-content: flex-end;
+}
+
+.centro {
+  justify-content: center;
+}
+
+.costados {
+  /* Pega el primer elemento a la izquierda, el segundo elemento a la derecha y los demás los ubica de manera proporcional */
+  justify-content: space-between;
+}
+
+.mismo-espacio {
+  justify-content: space-around;
+}
+
+.mismo-espacio-visual {
+  justify-content: space-evenly;
+}

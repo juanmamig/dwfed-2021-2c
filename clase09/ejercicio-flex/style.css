@@ -1,0 +1,26 @@
+.contenedor {
+  max-width: 992px;
+  margin: 0 auto;
+  border: 10px solid violet;
+
+}
+
+.contenedor-flex {
+  border: 10px solid orange;
+  display: flex;
+}
+
+.contenedor-izquierda, .contenedor-derecha {
+  width: 50%;
+  border: 2px solid black;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: lighter;
+}

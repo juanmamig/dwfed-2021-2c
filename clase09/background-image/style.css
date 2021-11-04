@@ -1,0 +1,21 @@
+header {
+  /* Agrego una image de fondo */
+  background-image: url("bg.png");
+  /* Le digo a la imagen de fondo que ocupe el 100% del div */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  border: 10px solid magenta;
+}
+
+h1,h2 {
+  color: white;
+}
+
+section {
+  background-image: url('seamless.jpeg');
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+/* La imagen de fondo por defecto se repite una y otra vez. Para evitar este comportamiento utilizamos la propiedad background-repeat: no-repeat  */
