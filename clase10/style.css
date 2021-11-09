@@ -1,0 +1,27 @@
+
+
+header {
+  background-color: #243572;
+}
+
+nav {
+  background-color: white;
+}
+
+.contenedor-limite {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contenedor-flex{
+  display: flex;
+  align-items: center;
+}
+
+.contendor-izquierda, .contenedor-derecha {
+  width: 50%;
+}
+
+footer {
+  background-color: #243572;
+}
