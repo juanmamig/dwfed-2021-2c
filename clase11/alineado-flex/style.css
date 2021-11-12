@@ -1,0 +1,34 @@
+/* Todos los elementos van a tener en cuenta tanto el contenido, el borde y el padding en su width y height.  */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contenedor-flex {
+
+  display: flex;
+  /* Alinea vertical, al comienzo */
+  align-items: flex-start;
+
+  /* Alinea vertical, al final */
+  /* align-items: flex-end;
+  /* Alinea vertical, al centro */
+  /* align-items: center;  */
+
+
+  border: 2px solid green;
+  width: 700px;
+  height: 300px;
+}
+
+/* 300 (width) + 20 (borde-izq) + 20 (padding-izq) + 20 (padding-der) + 20 (borde-der) */
+.caja {
+  width: 80px;
+  height: 80px;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: indianred;
+}

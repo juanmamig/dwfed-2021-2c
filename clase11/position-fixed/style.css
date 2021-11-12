@@ -1,0 +1,60 @@
+/* Cuando posicionamos un elemento usando position fixed pasan varias cosas
+
+1. El elemento pierde su ancho
+  - Se lo devolvemos con width: 100%
+
+2. El elemento pasa a estar en una capa superior, cediéndole el espacio a los elementos que hay debajo.
+- Lo solucionamos con un margin-top agregado al body */
+
+* {
+  box-sizing: border-box;
+}
+
+/* RESET */
+body {
+  margin: 0;
+  margin-top: 80px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* GENERALS */
+.contenedor {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+/* NAVBAR */
+
+.main-nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: indigo;
+}
+
+.main-nav-ul {
+  display: flex;
+}
+
+.main-nav-a {
+  display: inline-block;
+  color: white;
+  margin: 10px 15px;
+}
+
+p {
+  max-width: 300px;
+  position: relative;
+  z-index: 2;
+}
