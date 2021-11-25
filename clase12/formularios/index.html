@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formularios</title>
+</head>
+<body>
+
+  <form
+    action="https://formspree.io/f/mvolpzqa"
+    method="POST"
+  >
+    <div class="form-group">
+      <label for="usuario"> Ingrese su usuario </label>
+      <input type="text" id="usuario" name="user" required placeholder="Ingrese su usuario">
+    </div>
+
+    <div class="form-group">
+      <label for="pass"> Ingrese su contraseña </label>
+      <input type="password" id="pass" name="password" required placeholder="Ingrese su contraseña">
+    </div>
+
+    <div class="form-group">
+      <label>
+        Ingrese su edad
+        <input type="number" name="age" min="18" max="100">
+      </label>
+    </div>
+    
+    <div class="form-group">
+      <label>
+        Ingrese su correo electrónico
+        <input type="email" name="email" required>
+      </label>
+    </div>
+
+    <div class="form-group">
+      <label>
+        Ingrese su número de teléfono
+        <input type="tel" name="tel">
+      </label>
+    </div>
+
+    <div class="form-group">
+      <label>
+        Ingrese su fecha de nacimiento
+        <input type="date" name="date">
+      </label>
+    </div>
+
+    <div class="form-group">
+      <label>
+        Deje su mensaje
+      </label>
+      <textarea name="message"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label>
+        Ingrese la provincia donde vive
+        <select name="provincia">
+          <option value="bsas">Buenos Aires</option>
+          <option value="tucuman">Tucumán</option>
+          <option value="salta">Salta</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="form-group">
+      <p>Medio de Transporte</p>
+      <label>
+        Bicicleta
+        <input type="checkbox" name="transporte1" value="bicicleta">
+      </label>
+
+      <label>
+        Automovil
+        <input type="checkbox" name="transporte2" value="automovil">
+      </label>
+    </div>
+
+    <div class="form-group">
+      <p>Tiene Mascota</p>
+      <label>
+        Sí
+        <input type="radio" name="mascota" value="si">
+      </label>
+
+      <label>
+        No
+        <input type="radio" name="mascota" value="no">
+      </label>
+    </div>
+
+    <input type="submit" value="Enviar">
+  </form>
+
+  
+  <div class="map-container">
+    <h2>Encontranos!</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7356.560412935067!2d-65.21765600939773!3d-22.79207886163327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x940456eb1dc1f4b5%3A0xafc3aef6c01e4139!2sIruya%2C%20Salta!5e0!3m2!1ses-419!2sar!4v1637801088548!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <h2>Contactanos</h2>
+
+  <a href="https://wa.me/5491123232323?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo">
+
+    <img class="logo-whatsapp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1021px-WhatsApp.svg.png" alt="Logo de Whatsapp">
+
+  </a>
+
+  <a href="https://instagram.com/mipagina">¡Visitanos en instagram!</a>
+  
+</body>
+</html>

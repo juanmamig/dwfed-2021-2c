@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+form {
+  max-width: 600px; /* Le doy un Maximo*/
+  margin: 0 auto; /* Lo centro */
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+.map-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.map-container iframe{
+  width: 100%;
+}
+
+.logo-whatsapp {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+}
