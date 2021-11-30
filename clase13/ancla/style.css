@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* Hack para generar srcoll */
+section {
+  height: 700px;
+  border: 1px solid black;
+}
+
+h1 {
+  color: red;
+}
