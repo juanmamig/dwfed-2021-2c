@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.contenedor-carrousel {
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.slide-container {
+  text-align: center;
+}
+
+/* Cambiamos el color de las flechas */
+.slick-prev::before, .slick-next::before {
+  color: red;
+}
+
+img {
+  max-width: 100%;
+}
